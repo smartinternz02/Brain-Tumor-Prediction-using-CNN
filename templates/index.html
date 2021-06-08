@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='CSS/index.css') }}">
+    <!-- <link rel="stylesheet" href="/BrainTumor/static/CSS/index.css"> -->
+    <title>Brain Tumor</title>
+</head>
+
+<body>
+    <section id="heading">
+        <h1 class="main-heading">Brain Tumor Detection</h1>
+        <p class="BTD-desc" style="line-height: 2;">Brain tumor is one of the most rigorous diseases in the medical
+            science. An effective and efficient analysis is always a key concern for the radiologist in the premature
+            phase of tumor growth. Histological grading, based on a stereotactic biopsy test, is the gold standard and
+            the convention for detecting the grade of a brain tumor.
+            Tumor biopsy being challenging for brain tumor patients, non-invasive imaging techniques like Magnetic
+            Resonance Imaging (MRI) have been extensively employed in diagnosing brain tumors. Therefore, development of
+            systems for the detection and prediction of the grade of tumors based on MRI data has become necessary.</p>
+    </section>
+    <section id="PROJECT_DESCRIPTION">
+        <div class="main-wrapper">
+            <div class="row">
+                <img class="col-lg-6 project-image" src="{{ url_for('static',filename='assets/tumor_scan.png') }}" alt="image-for-BTD">
+                <!-- <img class="col-lg-6 project-image" src="/BrainTumor/static/b3.png" alt="image-for-BTD"> -->
+                <div class="col-lg-6 project-desc">
+                    <div>
+                        <h2 class="project-heading">Brain Tumor Detection using CNN</h2>
+                        <p class="BTD-desc">Neural Networks (NN) form the base of deep learning, a subfield of machine
+                            learning where the algorithms are inspired by the structure of the human brain. NN take in
+                            data, train themselves to recognize the patterns in this data and then predict the outputs
+                            for a new set of similar data. NN are made up of layers of neurons. These neurons are the
+                            core processing units of the network.Classifier models can be basically divided into two
+                            categories respectively which are generative models based on hand- crafted features and
+                            discriminative models. CNN identifies features from images and trains itself to distinguish
+                            between a tumor infected scan and a healthy one </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="UPLOADING_FILES_AREA">
+        <br>
+        <div class="bottom-section">
+            <h2 class="project-heading">Use our CNN model</h2>
+            <div class="row">
+                <div class="col-lg-6 upload-files">
+                    <p class="BTD-desc">Upload your MRI file here while our state-of-the-art machines predict the result
+                        for you</p>
+                    <form method="POST" action="" , class="form-main" enctype="multipart/form-data">
+                        {{ form.hidden_tag() }}
+                        <div class="input-group form-upload">
+                            {{ form.file(class="form-control") }}
+                            <input class="btn btn-outline-success" type="submit" value="Go">
+                        </div>
+                    </form>
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                    {% for category, message in messages %}
+                    <!-- <div class="alert alert-{{ category }} tumor-alert" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" style="text-align: left;" data-bs-dismiss="alert"
+                            aria-label="Close"></button>
+                    </div> -->
+                <div class="alert alert-{{ category }} tumor-alert alert-dismissible fade show" role="alert">
+                    <strong>{{ message }}</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <section id="main-body">
+                    {% endfor %}
+                    {% endif%}
+                    {% endwith %}
+            </div>
+            <div class="col-lg-6">
+                <p class="BTD-desc">Our CNN model has been trained on over 200+ Images of real-world Brain Tumor
+                    cases we have achieved an accuracy of over 99.5% using our advanced algorithms you can rest easy
+                    and avoid yourself a doctor's visit using our CNN model</p>
+            </div>
+        </div>
+        </div>
+        <div class="group-members">
+            <p class="grp-mem-desc">This is our Final project by our team as part of our Externship Project at
+                SmartBridge</p>
+            <h3 class="proj-heading">Project Members</h3>
+            <ul class="row group-members-list">
+                <li class="col-lg-2 col-md-3 member">Mudumby Kalyan</li>
+                <li class="col-lg-2 col-md-3 member">Siddhartha Sangani</li>
+                <li class="col-lg-2 col-md-3 member">V.Samhitha</li>
+                <li class="col-lg-2 col-md-3 member">Kalyan Sundar</li>
+                <li class="col-lg-2 col-md-3 member">Vivek Naik</li>
+
+            </ul>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

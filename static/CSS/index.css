@@ -1,0 +1,108 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.main-heading{
+    padding: 5%;
+    /* margin: 5%; */
+    text-align: center;
+    color:white;
+    /* background-color: #591fce; */
+    /* background-color: #77acf1; */
+    /* background-color: #fed049; */
+    background-color: #a7bbc7;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.BTD-desc{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.main-wrapper{
+    padding: 2.5%;
+    /* background-color: #dbe6fd; */
+    /* background-color: #77acf1; */
+    /* background-color: #fed049; */
+    background-color: #a7bbc7;
+    color: white;
+}
+.project-desc{
+    padding: 2.5%;
+}
+.project-image{
+    /* height: 75%; */
+    height: auto;
+    /* width: auto; */
+    width: auto;
+    padding: 7% 1% 5% 2.5%;
+}
+.project-heading{
+    padding: 0% 5% 0% 2.5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.bottom-section{
+    padding: 2.5% 5% 2.5% 2.5%;
+}
+.group-members{
+    padding: 3% 3% 3% 3%;
+    background-color: #77acf1;
+    color: white;
+}
+.proj-heading{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.grp-mem-desc{
+    /* padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%; */
+    padding: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.group-members li{
+    text-align: center;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2;
+    
+}
+.group-members-list{
+    padding-top: 5%;
+}
+.member{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 1rem;
+}
+.upload-files{
+    padding: 0% 5% 0% 2.5%;
+}
+.form-upload{
+    width: 50%;
+    text-align: center;
+}
+.form-main{
+    padding: 0% 8% 0% 2.5%;
+    margin-left: 2%;
+}
+.tumor-alert{
+    margin: 2.5%;
+}
+

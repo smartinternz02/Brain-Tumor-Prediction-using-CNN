@@ -21,10 +21,6 @@ Project Related Files:
 - [Model](https://drive.google.com/file/d/1NH83hYtN99ct__d1oWDGjBoCMoGDOPga/view?usp=sharing)
 - [Video Explanation](https://drive.google.com/file/d/1QHGl7nJM-lukYF98eFhArpOYZLT3pSST/view?usp=sharing)
 
-Project Members
+Project by:
 -
 - [Kalyan Mudumby](https://github.com/theinhumaneme)
-- P Kalyan Sundar
-- Siddhartha Sangani
-- V Samhitha
-- V Vivek Naik

@@ -1,0 +1,8 @@
+Flask==2.0.2
+Flask-WTF==0.15.1
+flatbuffers==1.12
+opencv-python==4.5.3.56
+Pillow==8.4.0
+scipy==1.7.1
+tensorflow==2.5.0
+jupyter==1.0.0

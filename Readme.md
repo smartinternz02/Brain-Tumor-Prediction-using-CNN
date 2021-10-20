@@ -1,6 +1,6 @@
 # Brain Tumor Prediction Using CNN
 
-In this project we have used Convolutional Neural Networks(CNN) to train a model that can predict if a MRI scan of the brain has a tumor or not  model trained using **IBM Cloud Services** and we have acheived over 95% accuracy and deployed it using a Flask Application
+In this project we have used Convolutional Neural Networks(CNN) to train a model that can predict if a MRI scan of the brain has a tumor or not we have trainedmodel using **IBM Cloud Services** and have acheived accuracy over 95% and deployed it using a Flask Application
 
 Libraries used:
 -
@@ -21,6 +21,10 @@ Project Related Files:
 - [Model](https://drive.google.com/file/d/1NH83hYtN99ct__d1oWDGjBoCMoGDOPga/view?usp=sharing)
 - [Video Explanation](https://drive.google.com/file/d/1QHGl7nJM-lukYF98eFhArpOYZLT3pSST/view?usp=sharing)
 
-Project by:
+Project Members
 -
 - [Kalyan Mudumby](https://github.com/theinhumaneme)
+
+[Visit Live Implementation](https://github.com/smartinternz02/SI-GuidedProject-2330-1622050371)
+-
+

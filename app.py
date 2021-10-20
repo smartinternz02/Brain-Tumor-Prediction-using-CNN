@@ -1,6 +1,7 @@
 from flask import Flask ,render_template,request
 from flask.helpers import flash
 from flask_wtf import FlaskForm
+from six import print_
 from wtforms import StringField
 from wtforms.fields.simple import FileField
 from wtforms.validators import DataRequired
@@ -22,9 +23,10 @@ def save_picture(file):
     random_hex = secrets.token_hex(8)
     _, f_ext = os.path.splitext(file.filename)
     picture_fn = random_hex + f_ext
-    picture_path = os.path.join('static\TI',picture_fn)
+    picture_path = os.path.join('./static/TI/',picture_fn)
     i = Image.open(file)
     i.save(picture_path)
+    print(picture_path)
     return picture_fn
 
 @app.route('/',methods=["GET","POST"])

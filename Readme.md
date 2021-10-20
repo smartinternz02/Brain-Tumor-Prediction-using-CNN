@@ -25,6 +25,6 @@ Project Members
 -
 - [Kalyan Mudumby](https://github.com/theinhumaneme)
 
-[Visit Live Implementation](https://github.com/smartinternz02/SI-GuidedProject-2330-1622050371)
+[Visit Live Implementation](https://internship.kalyanmudumby.me)
 -
 

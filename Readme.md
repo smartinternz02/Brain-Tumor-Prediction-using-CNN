@@ -24,7 +24,3 @@ Project Related Files:
 Project Members
 -
 - [Kalyan Mudumby](https://github.com/theinhumaneme)
-
-[Visit Live Implementation](https://internship.kalyanmudumby.me)
--
-
